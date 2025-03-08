@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Header</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo"><img src="logo.jpg"></div>
+        <div class="nav">
+            <a href="#" onclick="showTab('home')">Home</a>
+            <a href="#" onclick="showTab('about')">About</a>
+            <a href="#" onclick="showTab('contact')">Contact</a>
+        </div>
+    </div>
+    <div class="content">
+        <div id="home" class="tab-content">Welcome to the Home page!</div>
+        <div id="about" class="tab-content hidden">Learn more About us.</div>
+        <div id="contact" class="tab-content hidden">Get in touch with us.</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
